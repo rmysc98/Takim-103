@@ -4,7 +4,7 @@
 - Merve Aişeoğlu (Developer)
 - Mihriban Dingil (Scrum Master)
 - Rümeysa Çelik (Product Owner/ 3D Artist)
-- Nazlican Matlar (3D Artist)
+- Nazlıcan Matlar (3D Artist)
 - Ege Canıbek (Developer)
 ## Oyun İsmi :
 
@@ -29,7 +29,33 @@ Genç ve Yetişkin Oyuncular: 15 yaş ve üzeri, hikaye odaklı oyunlardan hoşl
 Eğitimciler ve Öğrenciler: Tarih ve kültür derslerini eğlenceli ve etkileşimli bir şekilde öğrenmek isteyen eğitimciler ve öğrenciler.
 Oyun Severler: Yüksek kaliteli grafikler, etkileyici hikaye anlatımı ve derin oyun mekaniği arayan oyuncular.
 
+## Sprint Review :
+-	Ekip olarak toplantılar yapılarak oyunun hikayesine ve verilmek istenilen mesaja karar verilmiştir. Hikaye, oyuncuların gelecekten başlayıp geçmişte Türk tarihindeki önemli olayları ve mekanları keşfettiği bir yolculuğa odaklanırken, her bölümde suçluların planlarını durdurmak için çözülmesi gereken karmaşık bulmacalar  bulunmaktadır.
+-	Kullanılacak yazılım ve tasarım araçları belirlenmiştir. Unity oyun motoru, Blender gibi araçlar kullanılacaktır. 
+-	Takım üyelerine görev dağılımları yapılmıştır. Herkesin sorumluluk alanları net bir şekilde belirlenmiştir. 
+-	Benzer oyunlar ve projeler incelenmiş, başarılı örnekler üzerinden notlar çıkarılmıştır.
+-	Oyunun geçeceği mekanlar ve oyunun bakış açısı kararlaştırılmıştır. Gelecek ve geçmiş zaman dilimlerinde geçen çeşitli tarihsel mekanlar belirlenmiştir.
 
+## Sprint Review Katılımcıları:
+- Merve Aişeoğlu 
+- Mihriban Dingil
+- Rümeysa Çelik 
+- Nazlıcan Matlar
+- Ege Canıbek
 
+## Sprint Retrospective:
 
+Ne İyi Gitti?
+- Takımın hikaye ve mesaj konusunda hızlı bir şekilde ortak bir karar alması olumlu geçti.
+-	Görevlerin net bir şekilde dağıtılması, herkesin sorumluluklarını bilmesini sağladı. Ekip çalışması ile ihtiyaç duyulan kişiye yardım edilerek işbirliği yapıldı.
+-	Kullanılacak araçların hızlı ve doğru bir şekilde seçilmesi, çalışmaların verimli başlamasını sağladı.
+-	İlk başlarda toplantı için zaman ayarlaması iyi yapılamadı ancak kısa sürede bu durum iyileştirilip günlük toplantılar yapılmaya başlandı.
+  
+Aksiyon Öğeleri
+-	Nazlıcan ve Rümeysa’nın tasarıma başlaması kararlaştırıldı. İlk adım olarak oyunun ….. alanları üzerinde çalışılacak.
+-	Ege ve Merve’nin teknik çalışmalar yapması kararlaştırıldı. İlk etapta temel mekaniklerin geliştirilmesi üzerine odaklanılacak.
+
+İleriye Dönük Planlar
+-	Belirlenen görev ve sorumluluklar doğrultusunda ilerleyecek, aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edilecek.
+-	İlk çalışma prototiplerinin oluşturulması ve test edilmesi için hazırlık yapılacak.
 
