@@ -52,7 +52,7 @@ Ne İyi Gitti?
 -	İlk başlarda toplantı için zaman ayarlaması iyi yapılamadı ancak kısa sürede bu durum iyileştirilip günlük toplantılar yapılmaya başlandı.
   
 Aksiyon Öğeleri
--	Nazlıcan ve Rümeysa’nın tasarıma başlaması kararlaştırıldı. İlk adım olarak oyunun ….. alanları üzerinde çalışılacak.
+-	Nazlıcan ve Rümeysa’nın tasarıma başlaması kararlaştırıldı. İlk adım olarak 2075 yılında geçen bölümlerindeki çevre tasarımı için gerekli üç boyutlu assetlerin üretilmesi kararlaştırıldı.
 -	Ege ve Merve’nin teknik çalışmalar yapması kararlaştırıldı. İlk etapta temel mekaniklerin geliştirilmesi üzerine odaklanılacak.
 
 İleriye Dönük Planlar
