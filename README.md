@@ -1,4 +1,5 @@
-## Takim İsmi : U103 
+## Takim İsmi :
+U103 
 
 ## Takim Üyeleri :
 - Merve Aişeoğlu (Developer)
@@ -46,10 +47,7 @@ Toplantı ve Whatsapp Screenshotları:
 
 ## Ürün Durumu: 
 
-
 https://github.com/rmysc98/Takim-103/assets/153552653/7c808f29-d3a1-4b03-8e2d-a53a2578e480
-
-
 
 ## Sprint Review :
 -	Ekip olarak toplantılar yapılarak oyunun hikayesine ve verilmek istenilen mesaja karar verilmiştir. Hikaye, oyuncuların gelecekten başlayıp geçmişte Türk tarihindeki önemli olayları ve mekanları keşfettiği bir yolculuğa odaklanırken, her bölümde suçluların planlarını durdurmak için çözülmesi gereken karmaşık bulmacalar  bulunmaktadır.
