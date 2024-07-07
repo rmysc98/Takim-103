@@ -41,7 +41,8 @@ Tahmin Mantığı: Proje süresince tamamlanması gereken toplam 120 puanlık bi
 Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmıştır.
 
 Toplantı ve Whatsapp Screenshotları:
-[Whatsapp Link ] (https://imgur.com/a/bYfBnzj)
+
+[Whatsapp Link ](https://imgur.com/a/bYfBnzj)
 
 ## Ürün Durumu: 
 
