@@ -41,11 +41,13 @@ Tahmin Mantığı: Proje süresince tamamlanması gereken toplam 120 puanlık bi
 Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmıştır.
 
 Toplantı ve Whatsapp Screenshotları:
-![97a062ee-ee49-4e13-abe9-9795bf40acc8](https://github.com/rmysc98/Takim-103/assets/153552653/38c835b7-aafb-46aa-a297-0d996ef27fdc)
-![2d7f9a6e-2978-4a41-b770-4a062687a8a1](https://github.com/rmysc98/Takim-103/assets/153552653/61b5a873-6686-458a-a32f-d5598fab8df7)
-![ef96e2ab-90b0-490f-8f31-372245a0d83c](https://github.com/rmysc98/Takim-103/assets/153552653/afbdeb48-edde-4728-8835-5492f125530f)
-![65d9bfb6-9310-44e4-8a9c-0e7b0121cf41](https://github.com/rmysc98/Takim-103/assets/153552653/e8482512-5e25-4e9d-b5e6-9ab4608578ae)
-![0711febb-b517-4303-a8b6-35b38092e328](https://github.com/rmysc98/Takim-103/assets/153552653/6b490f20-961d-4dd0-b56c-869975b2d5d7)
+[Whatsapp Link ] (https://imgur.com/a/bYfBnzj)
+
+## Ürün Durumu: 
+
+
+https://github.com/rmysc98/Takim-103/assets/153552653/7c808f29-d3a1-4b03-8e2d-a53a2578e480
+
 
 
 ## Sprint Review :
