@@ -11,8 +11,8 @@ U103
 Zaman Muhafızı
 
 ## Product Backlog URL:
-[Trello Ve Moodboard linki İçin Tıklayın ](https://trello.com/b/KonyeQ8c/my-trello-board)
-Trello linkinde moodboard ve product backlog mevcuttur. Product backlog 3 spirintten oluşmaktadır. Product backlog oluşturulurken INVEST metoduna göre oluşturulmuştur. Moodboard General, Design moodboard açıklamasında mevcuttur.
+[Trello](https://trello.com/b/KonyeQ8c/my-trello-board)
+linkinde moodboard ve product backlog mevcuttur. Product backlog 3 spirintten oluşmaktadır. Product backlog oluşturulurken INVEST metoduna göre oluşturulmuştur. Moodboard General, Design moodboard açıklamasında mevcuttur.
 
 
 ## Ürün Açıklaması:
