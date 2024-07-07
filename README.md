@@ -15,7 +15,9 @@ Zaman Muhafızı
 
 ## Ürün Açıklaması:
 > [!NOTE]
-> 2075 yılında zaman yolculuğu teknolojisi geliştirilmiş ve bu teknoloji bir grup suçlu tarafından ele geçirilmiştir. Bu suçlular, Türk tarihini değiştirerek büyük bir felaket yaratma planları yapmaktadır. Oyuncu, cesur bir zaman ajanı olarak, bu suçluların planlarını durdurmak için gönderilmiştir. Geçmişe gidip bulmacaları çözerek kaçış anahtarlarını bulmak en önemli amacıdr. Oyuncu bu heyecan dolu macera oyununda, Türk kültürüne ait çeşitli mekan ve imgelerle karşılaşacak, tarihin akışını korumak için mücadele edecektir.
+> 2075 yılında zaman yolculuğu teknolojisi geliştirilmiş ve bu teknoloji, kötü niyetli bir grup suçlu tarafından ele geçirilmiştir. Bu suçlular, Türk tarihini değiştirerek büyük bir felaket yaratmayı planlamaktadır. Oyuncu, cesur bir zaman ajanı olarak, bu suçluların planlarını durdurmak üzere geçmişe gönderilmiştir. Amacı, tarihin akışını korumak için Türk kültürüne ait çeşitli mekan ve imgelerle karşılaşıp bulmacaları çözerek kaçış anahtarlarını bulmaktır.
+
+Bu heyecan dolu oyunda oyuncular, Türk kültürünün zenginlikleriyle tanışacak ve tarihi korumak için mücadele edecektir. Asıl amacımız, Türk kültürünü gelecek nesillere aktarmak ve benimsetmektir. Bunu, Türk kültürüyle alakalı bir bulmaca oyunu tasarlayarak sağlıyoruz. Oyun, hem eğitici hem de eğlenceli bir deneyim sunarak oyuncuları, Türk tarihine ve kültürüne dair derinlemesine bilgi sahibi olmaya teşvik ediyor.
 
 ## Ürün Özellikleri :
 Zaman Yolculuğu Mekaniği: Oyuncular, çeşitli zaman dilimlerine giderek Türk tarihindeki önemli olayları ve mekanları keşfedecekler.
