@@ -11,27 +11,28 @@ U103
 Zaman Muhafızı
 
 ## Product Backlog URL:
-[Trello link ](https://trello.com/b/KonyeQ8c/my-trello-board)
+[Trello Ve Mood board linki İçin Tıkla ](https://trello.com/b/KonyeQ8c/my-trello-board)
 
 ## Ürün Açıklaması:
 > [!NOTE]
-> 2075 yılında zaman yolculuğu teknolojisi geliştirilmiş ve bu teknoloji bir grup suçlu tarafından ele geçirilmiştir. Bu suçlular, Türk tarihini değiştirerek büyük bir felaket yaratma planları yapmaktadır. Oyuncu, cesur bir zaman ajanı olarak, bu suçluların planlarını durdurmak için gönderilmiştir. Geçmişe gidip bulmacaları çözerek kaçış anahtarlarını bulmak en önemli amacıdr. Oyuncu bu heyecan dolu macera oyununda, Türk kültürüne ait çeşitli mekan ve imgelerle karşılaşacak, tarihin akışını korumak için mücadele edecektir.
+> 2075 yılında zaman yolculuğu teknolojisi geliştirilmiş ve bu teknoloji, kötü niyetli bir grup suçlu tarafından ele geçirilmiştir. Bu suçlular, Türk tarihini değiştirerek büyük bir felaket yaratmayı planlamaktadır. Oyuncu, cesur bir zaman ajanı olarak, bu suçluların planlarını durdurmak üzere geçmişe gönderilmiştir. Amacı, tarihin akışını korumak için Türk kültürüne ait çeşitli mekan ve imgelerle karşılaşıp bulmacaları çözerek kaçış anahtarlarını bulmaktır.
+
+Bu heyecan dolu oyunda oyuncular, Türk kültürünün zenginlikleriyle tanışacak ve tarihi korumak için mücadele edecektir. Asıl amacımız, Türk kültürünü gelecek nesillere aktarmak ve benimsetmektir. Bunu, Türk kültürüyle alakalı bir bulmaca oyunu tasarlayarak sağlıyoruz. Oyun, hem eğitici hem de eğlenceli bir deneyim sunarak oyuncuları, Türk tarihine ve kültürüne dair derinlemesine bilgi sahibi olmaya teşvik ediyor.
 
 ## Ürün Özellikleri :
-Zaman Yolculuğu Mekaniği: Oyuncular, çeşitli zaman dilimlerine giderek Türk tarihindeki önemli olayları ve mekanları keşfedecekler.
-Bulmaca Çözme: Her bölümde, suçluların planlarını durdurmak için çözülmesi gereken karmaşık bulmacalar bulunur.
-Türk Kültürü ve Tarihi: Oyunda Osmanlı İmparatorluğu'ndan Selçuklu Dönemi'ne, Kurtuluş Savaşı'ndan modern Türkiye'ye kadar çeşitli dönemler ve önemli tarihi figürler yer alır.
-Sürükleyici Hikaye: Zaman ajanının maceraları, sinematik ara sahnelerle desteklenen derin ve etkileyici bir hikaye ile sunulur.
-Gelişmiş Grafikler ve Ses: Yüksek çözünürlüklü grafikler ve Türk kültürüne özgü müzikler ile oyunun atmosferi güçlendirilmiştir.
-Karakter Gelişimi: Oyuncular, ajanlarının yeteneklerini ve ekipmanlarını geliştirebilir, daha zorlayıcı görevlerde daha etkili hale gelebilirler.
-Çoklu Oyun Modları: Tek oyunculu hikaye modunun yanı sıra, arkadaşlarınızla veya diğer oyuncularla birlikte oynayabileceğiniz çok oyunculu modlar da mevcuttur.
+- Zaman Yolculuğu Mekaniği: Oyuncular, çeşitli zaman dilimlerine giderek Türk tarihindeki önemli olayları ve mekanları keşfedecekler.
+- Bulmaca Çözme: Her bölümde, suçluların planlarını durdurmak için çözülmesi gereken karmaşık bulmacalar bulunur.
+- Türk Kültürü ve Tarihi: Oyunda Osmanlı İmparatorluğu'ndan Selçuklu Dönemi'ne, Kurtuluş Savaşı'ndan modern Türkiye'ye kadar çeşitli dönemler ve önemli tarihi figürler yer alır.
+- Sürükleyici Hikaye: Zaman ajanının maceraları, sinematik ara sahnelerle desteklenen derin ve etkileyici bir hikaye ile sunulur.
+- Gelişmiş Grafikler ve Ses: Yüksek çözünürlüklü grafikler ve Türk kültürüne özgü müzikler ile oyunun atmosferi güçlendirilmiştir.
+- Karakter Gelişimi: Oyuncular, ajanlarının yeteneklerini ve ekipmanlarını geliştirebilir, daha zorlayıcı görevlerde daha etkili hale gelebilirler.
 
 ## Hedef Kitle :
-Tarih ve Macera Meraklıları: Türk tarihine ve kültürüne ilgi duyan, geçmiş dönemlerdeki önemli olayları keşfetmek isteyen oyuncular.
-Bulmaca Sevenler: Zihinsel meydan okumaları seven, karmaşık bulmacaları çözmekten keyif alan bireyler.
-Genç ve Yetişkin Oyuncular: 15 yaş ve üzeri, hikaye odaklı oyunlardan hoşlanan, stratejik düşünme yeteneğine sahip oyuncular.
-Eğitimciler ve Öğrenciler: Tarih ve kültür derslerini eğlenceli ve etkileşimli bir şekilde öğrenmek isteyen eğitimciler ve öğrenciler.
-Oyun Severler: Yüksek kaliteli grafikler, etkileyici hikaye anlatımı ve derin oyun mekaniği arayan oyuncular.
+- Tarih ve Macera Meraklıları: Türk tarihine ve kültürüne ilgi duyan, geçmiş dönemlerdeki önemli olayları keşfetmek isteyen oyuncular.
+- Bulmaca Sevenler: Zihinsel meydan okumaları seven, karmaşık bulmacaları çözmekten keyif alan bireyler.
+- Genç ve Yetişkin Oyuncular: 15 yaş ve üzeri, hikaye odaklı oyunlardan hoşlanan, stratejik düşünme yeteneğine sahip oyuncular.
+- Eğitimciler ve Öğrenciler: Tarih ve kültür derslerini eğlenceli ve etkileşimli bir şekilde öğrenmek isteyen eğitimciler ve öğrenciler.
+- Oyun Severler: Yüksek kaliteli grafikler, etkileyici hikaye anlatımı ve derin oyun mekaniği arayan oyuncular.
 
 # SPRINT 1
 ## Puan Tamamlama Mantığı:
@@ -43,7 +44,7 @@ Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmışt
 
 Toplantı ve Whatsapp Screenshotları:
 
-[Whatsapp Link ](https://imgur.com/a/bYfBnzj)
+[Whatsapp Link ](https://drive.google.com/file/d/1F2HAViWYp2an6MTGJ9lGCKmugBJ1LxmP/view?usp=sharing)
 
 ## Ürün Durumu: 
 
