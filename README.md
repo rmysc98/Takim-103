@@ -12,7 +12,7 @@ Zaman Muhafızı
 
 ## Product Backlog URL:
 [Trello Ve Moodboard linki İçin Tıklayın ](https://trello.com/b/KonyeQ8c/my-trello-board)
-Trello linkinde moodboard ve product backlog göre mevcuttur. Product backlog 3 spirintten oluşmaktadır. Product backlog oluşturulurken INVEST metoduna göre oluşturulmuştur. Moodboard General, Design moodboard açıklamasında mevcuttur.
+Trello linkinde moodboard ve product backlog mevcuttur. Product backlog 3 spirintten oluşmaktadır. Product backlog oluşturulurken INVEST metoduna göre oluşturulmuştur. Moodboard General, Design moodboard açıklamasında mevcuttur.
 
 
 ## Ürün Açıklaması:
@@ -41,7 +41,7 @@ Bu heyecan dolu oyunda oyuncular, Türk kültürünün zenginlikleriyle tanışa
 Tahmin Edilen Tamamlanacak Puan: 40 Puan
 Tahmin Mantığı: Proje süresince tamamlanması gereken toplam 120 puanlık bir backlog bulunmaktadır. Bu backlog, 3 sprint'e bölündüğünde her sprint için ortalama 40 puan tamamlanması gerekmektedir. İlk sprint, ekibin hızını ve kapasitelerini değerlendirmek için temel alınarak 40 puanlık hedef belirlenmiştir. Bu sprintte, temel işlevlerin ve altyapının oluşturulması amaçlanmaktadır.
 
-# Daily Scrum :
+## Daily Scrum :
 Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmıştır.
 
 Toplantı ve Whatsapp Screenshotları:
