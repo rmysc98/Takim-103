@@ -51,9 +51,10 @@ Toplantı ve Whatsapp Screenshotları:
 [Whatsapp Link ](https://drive.google.com/file/d/1F2HAViWYp2an6MTGJ9lGCKmugBJ1LxmP/view?usp=sharing)
 
  - **Sprint board update**: Sprint board screenshotları:
-   ![Backlog 1]![U103 SPRİNT 1 1](https://github.com/rmysc98/Takim-103/assets/173948479/8e688176-8be6-4fcb-aa38-07ad9df6d847)
-   ![Backlog 2]![U103 SPRİNT1 2](https://github.com/rmysc98/Takim-103/assets/173948479/2a1b6ba9-e113-4118-a373-4cba3fefc616)
-   ![Backlog 3]![U103 SPRİNT 1 3](https://github.com/rmysc98/Takim-103/assets/173948479/1ef4f792-2f6f-496e-b5cc-e3571fa63312)
+
+![Backlog 1]![U103 SPRİNT 1 1](https://github.com/rmysc98/Takim-103/assets/173948479/8e688176-8be6-4fcb-aa38-07ad9df6d847)
+![Backlog 2]![U103 SPRİNT1 2](https://github.com/rmysc98/Takim-103/assets/173948479/2a1b6ba9-e113-4118-a373-4cba3fefc616)
+![Backlog 3]![U103 SPRİNT 1 3](https://github.com/rmysc98/Takim-103/assets/173948479/1ef4f792-2f6f-496e-b5cc-e3571fa63312)
 
 
 ## Ürün Durumu: 
