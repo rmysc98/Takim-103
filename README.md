@@ -110,8 +110,12 @@ Toplantı ve Whatsapp Screenshotları:
 
 
 ## Ürün Durumu: 
+![Urun_1]![413bba97-e37b-4c1e-9997-ec3ceed0dc69](https://github.com/user-attachments/assets/2871911e-0787-4030-b80d-c0c26788d952)
+![Urun_2]![7eb04553-9aa1-4640-8b6c-2704be9ab07a](https://github.com/user-attachments/assets/9b7cd87c-8c8a-4672-a3dc-efa1e762a89f)
+![Urun_3]![a3566fd0-d549-4a17-9a8c-02a498cf0e26](https://github.com/user-attachments/assets/81429319-f5cc-493d-af2e-689c84967b22)
+![Urun_4]![db7c8103-69e3-4c92-997a-8fa562fc6a27](https://github.com/user-attachments/assets/3c5b97a8-fd91-46ef-825e-18d72b6a398e)
 
-https://github.com/rmysc98/Takim-103/assets/153552653/7c808f29-d3a1-4b03-8e2d-a53a2578e480
+
 
 ## Sprint Review :
 -	Ekip olarak yapılan toplantılar sonucunda oyunda kullanılacak bulmacalar belirlenmiştir. 
@@ -129,17 +133,17 @@ https://github.com/rmysc98/Takim-103/assets/153552653/7c808f29-d3a1-4b03-8e2d-a5
 ## Sprint Retrospective:
 
 Ne İyi Gitti?
--Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı.
--Level Design çalışmaları yapıldı.
+- Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı.
+- Level Design çalışmaları yapıldı.
   
 Aksiyon Öğeleri
--Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde ilerleme kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı.
--Temel mekaniklerin geliştirilmesi konusunda ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi kararlaştırıldı.
+- Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde ilerleme kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı.
+- Temel mekaniklerin geliştirilmesi konusunda ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi kararlaştırıldı.
 
 İleriye Dönük Planlar
--Belirlenen görev ve sorumluluklar doğrultusunda ilerlemeye devam edilecek. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edilecek.
--İlk çalışma prototiplerinin oluşturulması ve test edilmesi için gerekli hazırlıklar yapılacak. Test sonuçlarına göre iyileştirmeler planlanacak.
--3D çalışmalar Sprint 3'e aktarıldı.
+- Belirlenen görev ve sorumluluklar doğrultusunda ilerlemeye devam edilecek. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edilecek.
+- İlk çalışma prototiplerinin oluşturulması ve test edilmesi için gerekli hazırlıklar yapılacak. Test sonuçlarına göre iyileştirmeler planlanacak.
+- 3D çalışmalar Sprint 3'e aktarıldı.
 
 
 
