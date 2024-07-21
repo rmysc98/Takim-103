@@ -111,8 +111,11 @@ Toplantı ve Whatsapp Screenshotları:
 
 ## Ürün Durumu: 
 ![Urun_1]![413bba97-e37b-4c1e-9997-ec3ceed0dc69](https://github.com/user-attachments/assets/2871911e-0787-4030-b80d-c0c26788d952)
+
 ![Urun_2]![7eb04553-9aa1-4640-8b6c-2704be9ab07a](https://github.com/user-attachments/assets/9b7cd87c-8c8a-4672-a3dc-efa1e762a89f)
+
 ![Urun_3]![a3566fd0-d549-4a17-9a8c-02a498cf0e26](https://github.com/user-attachments/assets/81429319-f5cc-493d-af2e-689c84967b22)
+
 ![Urun_4]![db7c8103-69e3-4c92-997a-8fa562fc6a27](https://github.com/user-attachments/assets/3c5b97a8-fd91-46ef-825e-18d72b6a398e)
 
 
