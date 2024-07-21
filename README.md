@@ -91,8 +91,55 @@ Aksiyon Öğeleri
 -	Belirlenen görev ve sorumluluklar doğrultusunda ilerleyecek, aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edilecek.
 -	İlk çalışma prototiplerinin oluşturulması ve test edilmesi için hazırlık yapılacak.
 
+# SPRINT 2
+## Puan Tamamlama Mantığı:
+Tahmin Edilen Tamamlanacak Puan: 45 Puan
+Tahmin Mantığı: İlk sprintte belirlenen 40 puanın tamamlanması beklenirken, tamamlanamayan işler ekibin gerçek hızını göstermektedir. 2. sprint için backlog gözden geçirilmiş ve önceliklendirilmiştir. İlk sprintte tamamlanamayan 5 puanlık işlerin yanı sıra, 2. sprintte tamamlanması gereken yeni işler de eklenmiştir. Ancak, ekibin artan tecrübesi göz önünde bulundurularak hedef puan 45 olarak belirlenmiştir.
+
+## Daily Scrum :
+Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmıştır.
+
+Toplantı ve Whatsapp Screenshotları:
+
+[Whatsapp Link ] (https://drive.google.com/file/d/18TAzchyVmZpIPSSVtxXHjTnAShS2_7nV/view?usp=sharing)
+
+ - **Sprint board update**: Sprint board screenshotları:
+![Backlog 1]![98c7519b-ab2f-475d-bc6e-688f7be09afe](https://github.com/user-attachments/assets/b9d3250e-f6c5-4a24-b7e9-c2f3ba551e05)
+![Backlog 2]![b201c43a-83c1-4090-b222-c17862df7c6b](https://github.com/user-attachments/assets/3d5d7f6d-24a0-4b77-8f31-c29d8b6043af)
+![Backlog 3]![4c688785-1952-469e-a493-25115ccae05b](https://github.com/user-attachments/assets/f13d589d-dba6-4850-9af8-51c7e326ba9a)
 
 
+## Ürün Durumu: 
+
+https://github.com/rmysc98/Takim-103/assets/153552653/7c808f29-d3a1-4b03-8e2d-a53a2578e480
+
+## Sprint Review :
+-	Ekip olarak yapılan toplantılar sonucunda oyunda kullanılacak bulmacalar belirlenmiştir. 
+- Level design çalışmaları yapılmıştır.
+- Fikir oluşturması açısından benzer oyunlar ve projeler incelenmiş, başarılı örnekler üzerinden notlar çıkarılmıştır. Bu analizler, ekibin oyun tasarımında yenilikçi ve etkili çözümler geliştirmesine yardımcı olmuştur.
+- 3D modelleme ve tasarım çalışmaları, kapsamı ve karmaşıklığı nedeniyle Sprint 3'e aktarılmıştır. Bu karar, ekibin odaklanmasını ve mevcut sprint hedeflerine ulaşmasını sağlamak için stratejik olarak alınmıştır.
+
+## Sprint Review Katılımcıları:
+- Merve Aişeoğlu 
+- Mihriban Dingil
+- Rümeysa Çelik 
+- Nazlıcan Matlar
+- Ege Canıbek
+
+## Sprint Retrospective:
+
+Ne İyi Gitti?
+-Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı.
+-Level Design çalışmaları yapıldı.
+  
+Aksiyon Öğeleri
+-Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde ilerleme kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı.
+-Temel mekaniklerin geliştirilmesi konusunda ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi kararlaştırıldı.
+
+İleriye Dönük Planlar
+-Belirlenen görev ve sorumluluklar doğrultusunda ilerlemeye devam edilecek. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edilecek.
+-İlk çalışma prototiplerinin oluşturulması ve test edilmesi için gerekli hazırlıklar yapılacak. Test sonuçlarına göre iyileştirmeler planlanacak.
+-3D çalışmalar Sprint 3'e aktarıldı.
 
 
 
