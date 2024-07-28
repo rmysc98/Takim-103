@@ -10,14 +10,25 @@ public class PlayerCamera : MonoBehaviour
     float xRotation;
     float yRotation;
 
+    private bool isGameViewActive;
+
     void Start()
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+        isGameViewActive = false;
     }
 
     void Update()
     {
+        if (isGameViewActive == false)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                isGameViewActive = true;
+            }
+            return;
+        }
         if (GameManager.Instance.CurrentState != GameState.Playing) return;
 
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;

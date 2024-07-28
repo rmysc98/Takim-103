@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
+using UnityEditor.PackageManager;
 using UnityEngine;
 
 interface IInteractable
@@ -20,9 +21,10 @@ public class Interactor : MonoBehaviour
     void Update()
     {
         if (GameManager.Instance.CurrentState != GameState.Playing) return;
-
+        //RaycastHit hit;
         Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
         Debug.DrawRay(r.origin, r.direction * InteractRange, Color.red);
+
         if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
         {
             if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
@@ -54,6 +56,8 @@ public class Interactor : MonoBehaviour
 
     void SetNewCurrentInteractable(GameObject Obj)
     {
+        if (Obj == currentHighlightObject) return;
+        //Debug.Log("new current");
         currentHighlightObject = Obj;
         ApplyOutline(currentHighlightObject, true);
 
