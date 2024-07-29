@@ -27,6 +27,15 @@ public class Interactor : MonoBehaviour
 
         if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
         {
+            if (hitInfo.collider.gameObject.TryGetComponent(out Extinguish extinguish))
+            {
+                if (Input.GetKeyDown(KeyCode.Z))
+                {
+                    extinguish.Interact();
+                    //ApplyOutline(currentHighlightObject, false);
+                    //GameManager.Instance.ShowInspectMenu(hitInfo.collider.gameObject);
+                }
+            }
             if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
             {
                 if (currentHighlightObject && hitInfo.transform.gameObject != currentHighlightObject)
