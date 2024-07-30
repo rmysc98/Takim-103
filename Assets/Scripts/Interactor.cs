@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using TMPro;
-using UnityEditor.PackageManager;
 using UnityEngine;
 
 interface IInteractable
@@ -13,43 +12,49 @@ public class Interactor : MonoBehaviour
 {
     public Transform InteractorSource;
     public float InteractRange;
-    [SerializeField] GameObject currentHighlightObject; // debug sonrasý serialize kaldýrýlcak.
+    public GameObject ghostObject;
+    [SerializeField] LayerMask mask;
 
     [SerializeField] TextMeshProUGUI interactObjNameText;
     [SerializeField] GameObject nameHolderPanel;
 
     void Update()
     {
-        if (GameManager.Instance.CurrentState != GameState.Playing) return;
-        //RaycastHit hit;
+        if (GameManager.Instance.CurrentState != GameState.Playing)
+        {
+            if (Input.GetKeyDown(KeyCode.E) && GameManager.Instance.CurrentState == GameState.Inspecting)
+            {
+                GameManager.Instance.HideInspectMenu();
+            }
+            return;
+        }
+
         Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
         Debug.DrawRay(r.origin, r.direction * InteractRange, Color.red);
-
-        if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange))
+        if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange, mask))
         {
-            if (hitInfo.collider.gameObject.TryGetComponent(out Extinguish extinguish))
-            {
-                if (Input.GetKeyDown(KeyCode.Z))
-                {
-                    extinguish.Interact();
-                    //ApplyOutline(currentHighlightObject, false);
-                    //GameManager.Instance.ShowInspectMenu(hitInfo.collider.gameObject);
-                }
-            }
             if (hitInfo.collider.gameObject.TryGetComponent(out IInteractable interactObj))
             {
-                if (currentHighlightObject && hitInfo.transform.gameObject != currentHighlightObject)
+                if (Input.GetMouseButtonDown(0))
                 {
-                    ApplyOutline(currentHighlightObject, false);
+                    if (ghostObject == null)
+                    {
+
+                    }
+                    return;
+                }
+
+                if (GameManager.Instance.currentHighlightObject && hitInfo.transform.gameObject != GameManager.Instance.currentHighlightObject)
+                {
+                    ApplyOutline(GameManager.Instance.currentHighlightObject, false);
                 }
                 SetNewCurrentInteractable(hitInfo.collider.gameObject);
                 DisplayName(hitInfo.collider.name);
+                //&& GameManager.Instance.CurrentState == GameState.Playing
                 if (Input.GetKeyDown(KeyCode.E))
                 {
-                    //interactObj.Interact();
-                    // Burasý düzeltilmeli, Ýncelemenin gamemanager'de olmamasý gerekiyor gibi gözüküyor.
-                    ApplyOutline(currentHighlightObject, false);
-                    GameManager.Instance.ShowInspectMenu(hitInfo.collider.gameObject);
+                    interactObj.Interact();
+                    ApplyOutline(GameManager.Instance.currentHighlightObject, false);
                 }
             }
             else
@@ -65,24 +70,27 @@ public class Interactor : MonoBehaviour
 
     void SetNewCurrentInteractable(GameObject Obj)
     {
-        if (Obj == currentHighlightObject) return;
+        if (Obj == GameManager.Instance.currentHighlightObject) return;
         //Debug.Log("new current");
-        currentHighlightObject = Obj;
-        ApplyOutline(currentHighlightObject, true);
+        GameManager.Instance.currentHighlightObject = Obj;
+        ApplyOutline(GameManager.Instance.currentHighlightObject, true);
 
     }
 
     void DisableCurrentInteractable()
     {
-        if (currentHighlightObject)
+        if (GameManager.Instance.currentHighlightObject)
         {
-            ApplyOutline(currentHighlightObject, false);
-            currentHighlightObject = null;
+            ApplyOutline(GameManager.Instance.currentHighlightObject, false);
+            GameManager.Instance.currentHighlightObject = null;
             DisplayName(false);
         }
     }
 
-    void ApplyOutline(GameObject Obj, bool enable) => Obj.GetComponent<Outline>().enabled = enable;
+    void ApplyOutline(GameObject Obj, bool enable)
+    {
+        Obj.GetComponent<Outline>().enabled = enable;
+    }
 
     void DisplayName(string name)
     {

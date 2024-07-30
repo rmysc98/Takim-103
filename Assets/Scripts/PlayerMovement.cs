@@ -22,12 +22,17 @@ public class PlayerMovement : MonoBehaviour
     {
         if (GameManager.Instance.CurrentState != GameState.Playing) return;
         MyInput();
-        
     }
 
     private void FixedUpdate()
     {
-        if (GameManager.Instance.CurrentState != GameState.Playing) return;
+        if (GameManager.Instance.CurrentState != GameState.Playing)
+        {
+            rb.velocity = Vector3.zero;
+            rb.angularVelocity = Vector3.zero;
+            return;
+        }
+        
         MovePlayer();
     }
 
@@ -41,6 +46,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void MovePlayer()
     {
+        //if (rb.isKinematic == true)
+        //    rb.isKinematic = false;
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
         rb.velocity = moveDirection * moveSpeed;
 
