@@ -20,13 +20,13 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance.CurrentState != GameState.Playing) return;
+        if (GameManager.Instance.CurrentState != GameState.Playing && GameManager.Instance.CurrentState != GameState.Holding) return;
         MyInput();
     }
 
     private void FixedUpdate()
     {
-        if (GameManager.Instance.CurrentState != GameState.Playing)
+        if (GameManager.Instance.CurrentState != GameState.Playing && GameManager.Instance.CurrentState != GameState.Holding)
         {
             rb.velocity = Vector3.zero;
             rb.angularVelocity = Vector3.zero;

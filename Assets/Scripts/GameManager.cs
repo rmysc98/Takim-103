@@ -2,13 +2,16 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.UI;
 using DG.Tweening;
 using TMPro;
 using UnityEngine.Events;
+using System;
 
 public enum GameState
 {
     Playing,
+    Holding,
     Inspecting,
     Paused
 }
@@ -32,25 +35,29 @@ public class GameManager : MonoBehaviour
 
     public delegate void OnStateChange(GameState newState);
 
-    public GameObject currentInspectingObject;
-    public GameObject currentHighlightObject;
+    [HideInInspector] public GameObject currentInspectingObject;
+    [HideInInspector] public GameObject currentHighlightObject;
     //[SerializeField] float displayInteractDistance = 1;
     [SerializeField] float displaySpeed = 0.8f;
 
-    [SerializeField] Camera mainCamera;
+    public Camera mainCamera;
     [SerializeField] GameObject globalVolume;
     [SerializeField] GameObject player;
     [SerializeField] GameObject inspectLight;
     [SerializeField] LayerMask detailLayer;
-    public float InteractRange;
+    //public float InteractRange;
 
     float deltaRotationX;
     float deltaRotationY;
     [SerializeField] float rotateSpeed = 1f;
 
-    public Texture2D cursorNormal;
-    public Texture2D cursorClickable;
-    public Texture2D cursorDragable;
+    //public Texture2D cursorNormal;
+    //public Texture2D cursorClickable;
+    //public Texture2D cursorDragable;
+
+    [SerializeField] CursorTexture[] gameplayMouseIcons;
+    [SerializeField] Image crosshairImage;
+    public Material ghostMaterial;
 
     public bool isInspectBusy;
 
@@ -69,7 +76,7 @@ public class GameManager : MonoBehaviour
         {
             currentState = newState;
 
-            if (currentState == GameState.Playing)
+            if (currentState == GameState.Playing || currentState == GameState.Holding)
             {
                 Cursor.lockState = CursorLockMode.Locked;
                 Cursor.visible = false;
@@ -85,14 +92,17 @@ public class GameManager : MonoBehaviour
 
     public void ShowInspectMenu(GameObject Obj)
     {
+        SetInGameCursor("none");
         ChangeState(GameState.Inspecting);
-        Obj.GetComponent<Rigidbody>().useGravity = false;
-        Obj.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        Obj.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+        //Obj.GetComponent<Rigidbody>().useGravity = false;
+        //Obj.GetComponent<Rigidbody>().velocity = Vector3.zero;
+        //Obj.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
 
-        Obj.GetComponent<Collider>().enabled = false;
-        Obj.GetComponent<Pickup>().lastPosition = Obj.transform.position;
-        Obj.GetComponent<Pickup>().lastRotation = Obj.transform.eulerAngles;
+        //Obj.GetComponent<Collider>().enabled = false;
+        //Obj.GetComponent<Pickup>().lastPosition = Obj.transform.position;
+        //Obj.GetComponent<Pickup>().lastRotation = Obj.transform.eulerAngles;
+
+        Obj.GetComponent<Pickup>().DisablePhysics();
         globalVolume.SetActive(true);
         
         Obj.layer = LayerMask.NameToLayer("Object");
@@ -119,7 +129,7 @@ public class GameManager : MonoBehaviour
     }
     public void HideInspectMenu()
     {
-        
+        SetInGameCursor("none");
         ChangeState(GameState.Playing);
         globalVolume.SetActive(false);
         currentInspectingObject.layer = LayerMask.NameToLayer("Default");
@@ -133,11 +143,15 @@ public class GameManager : MonoBehaviour
         currentInspectingObject.transform.DORotate(currentInspectingObject.GetComponent<Pickup>().lastRotation, displaySpeed - 0.02f);
         currentInspectingObject.transform.DOMove(currentInspectingObject.GetComponent<Pickup>().lastPosition, displaySpeed).OnComplete(() =>
         {
-            currentInspectingObject.GetComponent<Collider>().enabled = true;
-            currentInspectingObject.GetComponent<Rigidbody>().useGravity = true;
+            currentInspectingObject.GetComponent<Pickup>().EnablePhysics();
             currentInspectingObject = null;
         });
         inspectLight.SetActive(false);
+
+        if (currentInspectingObject.TryGetComponent(out Case component))
+        {
+            component.CloseCaseImmediate();
+        }
 
         //currentInspectingObject.transform.position = currentInspectingObject.GetComponent<Pickup>().lastPosition;
         //currentInspectingObject.transform.eulerAngles = currentInspectingObject.GetComponent<Pickup>().lastRotation;
@@ -162,6 +176,21 @@ public class GameManager : MonoBehaviour
                 currentInspectingObject.transform.eulerAngles = new Vector3(currentInspectingObject.transform.eulerAngles.x, currentInspectingObject.transform.eulerAngles.y, 0);
             }
 
+        }
+    }
+
+    public void SetInGameCursor(string state)
+    {
+        CursorTexture cursor = Array.Find(gameplayMouseIcons, x => x.cursorName == state);
+
+        if (cursor == null)
+        {
+            crosshairImage.enabled = false;
+        }
+        else
+        {
+            crosshairImage.enabled = true;
+            crosshairImage.sprite = cursor.cursorSprite;
         }
     }
 }

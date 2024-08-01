@@ -10,7 +10,7 @@ public class CaseLock : MonoBehaviour
     [SerializeField] Transform lockTransform;
     public void Interact()
     {
-        Debug.Log(transform.name);
+        //Debug.Log(transform.name);
         if (GameManager.Instance.CurrentState == GameState.Inspecting)
         {
             caseScript.ChangeLockState(thisLockName,lockTransform);

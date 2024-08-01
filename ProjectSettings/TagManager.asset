@@ -15,8 +15,8 @@ TagManager:
   - Object
   - PostProcess
   - ObjectDetailPart
-  - 
-  - 
+  - BreakableParts
+  - Player
   - 
   - 
   - 
