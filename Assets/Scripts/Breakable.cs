@@ -8,6 +8,8 @@ public class Breakable : MonoBehaviour
     public float breakForceThreshold = 5.0f;
     [SerializeField] GameObject gfx;
     [SerializeField] GameObject brokenGfx;
+    [SerializeField] GameObject newObject;
+    bool isBroken;
 
     void OnCollisionEnter(Collision collision)
     {
@@ -15,14 +17,19 @@ public class Breakable : MonoBehaviour
 
         if (collisionForce > breakForceThreshold)
         {
+            if (isBroken) return;
+
+            isBroken = true;
             Debug.Log("Nesne kýrýldý! Çarpýþma þiddeti: " + collisionForce);
             brokenGfx.SetActive(true);
             gfx.SetActive(false);
-            //GetComponent<BoxCollider>().enabled = false;
+            AudioManager.Instance.PlaySFX("vase");
             Destroy(GetComponent<BoxCollider>(),0.3f);
-            //GetComponent<Rigidbody>().useGravity = false;
-            //GetComponent<Rigidbody>().velocity = Vector3.zero;
-            //GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
+            
+            if (newObject != null)
+            {
+                newObject.SetActive(true);
+            }
         }
     }
 }

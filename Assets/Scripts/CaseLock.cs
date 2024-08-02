@@ -14,6 +14,8 @@ public class CaseLock : MonoBehaviour
         if (GameManager.Instance.CurrentState == GameState.Inspecting)
         {
             caseScript.ChangeLockState(thisLockName,lockTransform);
+            AudioManager.Instance.PlaySFX("box_lock");
+
         }
     }
 }

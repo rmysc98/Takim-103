@@ -3,7 +3,6 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
-using static UnityEditor.Progress;
 
 public class DimensionChanger : MonoBehaviour
 {
@@ -21,6 +20,7 @@ public class DimensionChanger : MonoBehaviour
     [SerializeField] Transform futureEnvironment;
 
     bool isFuture = false;
+    bool isReady = true;
 
     private void Start()
     {
@@ -29,22 +29,13 @@ public class DimensionChanger : MonoBehaviour
 
     private void Update()
     {
-        //if(Input.GetKeyDown(KeyCode.Z))
-        //{
-        //    for (int i = 0; i < meshes[0].materials.Length; i++)
-        //    {
-        //        List<Material> list = new();
-        //        for (int j = 0; j < meshes[0].materials.Length; j++)
-        //        {
-        //            list.Add(mat);
-        //        }
-        //        meshes[0].SetMaterials(list);
-        //    }
-        //}
-
-
         if (Input.GetKeyDown(KeyCode.Space))
         {
+            if (!isReady) return;
+            isReady = false;
+
+            AudioManager.Instance.PlaySFX("teleport");
+
             if (!isFuture)
             {
                 isFuture = true;
@@ -80,7 +71,12 @@ public class DimensionChanger : MonoBehaviour
                         DOTween.To(() => item.material.GetFloat(Shader.PropertyToID("_DissolveStrength")),
                                    x => item.material.SetFloat(Shader.PropertyToID("_DissolveStrength"), x),
                                    0f, 5)
-                               .SetEase(Ease.OutCirc);
+                               .SetEase(Ease.OutCirc)
+                               .OnComplete(() =>
+                               {
+                                   isReady = true;
+
+                               });
                     }
                     StartCoroutine(SetNewMaterial(item, futureMaterials[count]));
                     count++;
@@ -104,7 +100,12 @@ public class DimensionChanger : MonoBehaviour
                         DOTween.To(() => item.material.GetFloat(Shader.PropertyToID("_DissolveStrength")),
                                    x => item.material.SetFloat(Shader.PropertyToID("_DissolveStrength"), x),
                                    0f, 5)
-                               .SetEase(Ease.OutCirc);
+                               .SetEase(Ease.OutCirc)
+                               .OnComplete(() =>
+                               {
+                                   isReady = true;
+
+                               });
                     }
                     StartCoroutine(SetNewMaterial(item, pastMaterials[count]));
                     count++;

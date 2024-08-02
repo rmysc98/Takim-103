@@ -48,6 +48,20 @@ public class Interactor : MonoBehaviour
                 Ray ray = new(InteractorSource.position, InteractorSource.forward);
                 if (Physics.Raycast(ray, out RaycastHit hit, placeRange, placeMask))
                 {
+                    if (hit.collider.gameObject.TryGetComponent(out Table table))
+                    {
+                        
+                        ghostObject.SetActive(true);
+                        ghostObject.transform.SetParent(playerOrientation);
+                        ghostObject.transform.SetPositionAndRotation(table.placeablePlace.position, table.placeablePlace.rotation);
+                        if (Input.GetMouseButtonDown(0))
+                        {
+                            GameManager.Instance.FOVSetter();
+                            AudioManager.Instance.PlaySFX("teleport");
+                        }
+                        return;
+                    }
+
                     Vector3 proposedPosition = hit.point + new Vector3(0, 0.20f, 0);
 
                     if (Input.GetMouseButtonDown(0))
@@ -102,7 +116,8 @@ public class Interactor : MonoBehaviour
 
                     if (!isHoldingObject)
                     {
-                    Debug.Log("click + Pick");
+                        AudioManager.Instance.PlaySFX("grab");
+
                         isHoldingObject = true;
                         holdObject = hitInfo.collider.gameObject;
                         GameManager.Instance.ChangeState(GameState.Holding);
@@ -130,6 +145,8 @@ public class Interactor : MonoBehaviour
                 //&& GameManager.Instance.CurrentState == GameState.Playing
                 if (Input.GetKeyDown(KeyCode.E))
                 {
+                    AudioManager.Instance.PlaySFX("grab");
+
                     interactObj.Interact();
                     ApplyOutline(GameManager.Instance.currentHighlightObject, false);
                 }

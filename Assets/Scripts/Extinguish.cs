@@ -16,12 +16,15 @@ public class Extinguish : MonoBehaviour, IInteractable
             particleEffect.Clear();
             lightObj.SetActive(false);
             isActive = false;
+            AudioManager.Instance.PlaySFX("blow");
         }
         else
         {
             particleEffect.Play();
             lightObj.SetActive(true);
             isActive = true;
+            AudioManager.Instance.PlaySFX("light");
+
         }
     }
 

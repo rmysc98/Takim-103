@@ -11,6 +11,7 @@ public class Pickup : MonoBehaviour, IInteractable
     public Vector3 lastRotation;
 
     public Transform ghostObject;
+    public GameObject textObj;
 
 
     public void EnablePhysics()
@@ -49,6 +50,7 @@ public class Pickup : MonoBehaviour, IInteractable
     public void Interact()
     {
         GameManager.Instance.ShowInspectMenu(GameManager.Instance.currentHighlightObject);
+        if (textObj != null) textObj.SetActive(true);
         
     }
 

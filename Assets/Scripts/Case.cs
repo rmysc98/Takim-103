@@ -15,6 +15,8 @@ public class Case : MonoBehaviour
     bool isRightOpen;
     bool canOpenable;
 
+    [SerializeField] GameObject bookPref;
+
     public void ChangeLockState(string lockname, Transform lockTransform)
     {
         if (lockname == "left")
@@ -70,6 +72,7 @@ public class Case : MonoBehaviour
     {
         if (!canOpenable) return;
         if (GameManager.Instance.isInspectBusy) return;
+        AudioManager.Instance.PlaySFX("box_open");
 
         isOpen = true;
         GameManager.Instance.isInspectBusy = true;
@@ -85,6 +88,8 @@ public class Case : MonoBehaviour
         if (GameManager.Instance.isInspectBusy) return;
         isOpen = false;
         GameManager.Instance.isInspectBusy = true;
+        AudioManager.Instance.PlaySFX("box_close");
+
 
         upperCase.transform.DORotateQuaternion(closedPosTransform.rotation, 1).OnComplete(() =>
         {
@@ -96,5 +101,17 @@ public class Case : MonoBehaviour
     public void CloseCaseImmediate()
     {
         upperCase.transform.rotation = closedPosTransform.rotation;
+        isOpen = false;
+    }
+
+    public void TakeBook(GameObject placerGFX)
+    {
+        if (!isOpen) return;
+
+        AudioManager.Instance.PlaySFX("grab");
+
+        bookPref.SetActive(true);
+        bookPref.transform.SetPositionAndRotation(placerGFX.transform.position, placerGFX.transform.rotation);
+        placerGFX.SetActive(false);
     }
 }

@@ -8,8 +8,6 @@ using TMPro;
 using UnityEngine.Events;
 using System;
 using Cinemachine;
-using static UnityEditor.Progress;
-using static Unity.Burst.Intrinsics.X86.Avx;
 
 public enum GameState
 {
@@ -69,6 +67,7 @@ public class GameManager : MonoBehaviour
     private void Start()
     {
         ChangeState(GameState.Playing);
+        AudioManager.Instance.PlayMusic("theme");
     }
 
     public GameState CurrentState
@@ -144,12 +143,14 @@ public class GameManager : MonoBehaviour
             currentInspectingObject.GetComponent<Pickup>().EnablePhysics();
             currentInspectingObject = null;
         });
+        if (currentInspectingObject.GetComponent<Pickup>().textObj != null) currentInspectingObject.GetComponent<Pickup>().textObj.SetActive(false);
         inspectLight.SetActive(false);
 
         if (currentInspectingObject.TryGetComponent(out Case component))
         {
             component.CloseCaseImmediate();
         }
+
 
         //currentInspectingObject.transform.position = currentInspectingObject.GetComponent<Pickup>().lastPosition;
         //currentInspectingObject.transform.eulerAngles = currentInspectingObject.GetComponent<Pickup>().lastRotation;
