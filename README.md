@@ -12,6 +12,7 @@ Zaman Muhafızı
 
 ## Product Backlog URL:
 [Miro Backlog Board]([https://miro.com/app/board/uXjVOSSCpsI=](https://miro.com/welcomeonboard/aHFRSHhQMmtxUG9lOGZrRkpGWlBWbDlPcjlRSG9oZG52RmV6cTBrQWZzc2RlTUgyQWJDWTMyZDg4d0ZuTEV3dnwzNDU4NzY0NTk0MTQxNTEwNTcxfDI=?share_link_id=809254113816)/)
+
 [Trello](https://trello.com/b/KonyeQ8c/my-trello-board) linkinde moodboard ve product backlog mevcuttur.
 - Product backlog 3 sprintten oluşmaktadır. 
 - Product backlog oluşturulurken INVEST metoduna göre oluşturulmuştur. 
