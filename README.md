@@ -163,10 +163,10 @@ Toplantı ve Whatsapp Screenshotları:
 [Whatsapp Link](https://drive.google.com/file/d/1aE1o3knXz9eCpAbCHbh26M9offdCNVQ-/view)
 
  - **Sprint board update**: Product Backlog screenshotları:
-![Product Backlog 1](https://github.com/user-attachments/assets/85fbffb6-39c4-4397-974d-37d1d279f031)
-![Product Backlog2](https://github.com/user-attachments/assets/d452c631-4ff8-434b-b86a-9cf7c9331427)
-![Product Backlog3](https://github.com/user-attachments/assets/94aa19b7-0109-4b3b-a2ae-20d800c0aaca)
-![Product Backlog4](https://github.com/user-attachments/assets/cb96c95c-3470-43fb-b1ee-ed8e31a94f6d)
+![Product Backlog 1](https://github.com/user-attachments/assets/1e9c2a56-a726-4deb-8f83-6c5a353bdb8d)
+![Product Backlog2](https://github.com/user-attachments/assets/65a4a71c-1b30-4935-8a99-240324954b72)
+![Product Backlog3](https://github.com/user-attachments/assets/fbb25da7-093e-46e7-84a3-ce47cbca8de8)
+![Product Backlog4](https://github.com/user-attachments/assets/2303beba-919b-4e74-b444-3b51f807ca32)
 
 
 
