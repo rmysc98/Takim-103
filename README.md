@@ -48,13 +48,13 @@ Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmışt
 
 Toplantı ve Whatsapp Screenshotları:
 
-[Whatsapp Link ](https://drive.google.com/file/d/1F2HAViWYp2an6MTGJ9lGCKmugBJ1LxmP/view?usp=sharing)
+[Whatsapp Link](https://drive.google.com/file/d/1F2HAViWYp2an6MTGJ9lGCKmugBJ1LxmP/view?usp=sharing)
 
  - **Sprint board update**: Sprint board screenshotları:
 
-![Backlog 1]![U103 SPRİNT 1 1](https://github.com/rmysc98/Takim-103/assets/173948479/8e688176-8be6-4fcb-aa38-07ad9df6d847)
-![Backlog 2]![U103 SPRİNT1 2](https://github.com/rmysc98/Takim-103/assets/173948479/2a1b6ba9-e113-4118-a373-4cba3fefc616)
-![Backlog 3]![U103 SPRİNT 1 3](https://github.com/rmysc98/Takim-103/assets/173948479/1ef4f792-2f6f-496e-b5cc-e3571fa63312)
+![U103 SPRİNT 1 1](https://github.com/rmysc98/Takim-103/assets/173948479/8e688176-8be6-4fcb-aa38-07ad9df6d847)
+![U103 SPRİNT1 2](https://github.com/rmysc98/Takim-103/assets/173948479/2a1b6ba9-e113-4118-a373-4cba3fefc616)
+![U103 SPRİNT 1 3](https://github.com/rmysc98/Takim-103/assets/173948479/1ef4f792-2f6f-496e-b5cc-e3571fa63312)
 
 
 ## Ürün Durumu: 
@@ -101,22 +101,22 @@ Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmışt
 
 Toplantı ve Whatsapp Screenshotları:
 
-[Whatsapp Link ] (https://drive.google.com/file/d/18TAzchyVmZpIPSSVtxXHjTnAShS2_7nV/view?usp=sharing)
+[Whatsapp Link](https://drive.google.com/file/d/18TAzchyVmZpIPSSVtxXHjTnAShS2_7nV/view?usp=sharing)
 
  - **Sprint board update**: Sprint board screenshotları:
-![Backlog 1]![98c7519b-ab2f-475d-bc6e-688f7be09afe](https://github.com/user-attachments/assets/b9d3250e-f6c5-4a24-b7e9-c2f3ba551e05)
-![Backlog 2]![b201c43a-83c1-4090-b222-c17862df7c6b](https://github.com/user-attachments/assets/3d5d7f6d-24a0-4b77-8f31-c29d8b6043af)
-![Backlog 3]![4c688785-1952-469e-a493-25115ccae05b](https://github.com/user-attachments/assets/f13d589d-dba6-4850-9af8-51c7e326ba9a)
+![98c7519b-ab2f-475d-bc6e-688f7be09afe](https://github.com/user-attachments/assets/b9d3250e-f6c5-4a24-b7e9-c2f3ba551e05)
+![b201c43a-83c1-4090-b222-c17862df7c6b](https://github.com/user-attachments/assets/3d5d7f6d-24a0-4b77-8f31-c29d8b6043af)
+![4c688785-1952-469e-a493-25115ccae05b](https://github.com/user-attachments/assets/f13d589d-dba6-4850-9af8-51c7e326ba9a)
 
 
-## Ürün Durumu: 
-![Urun_1]![413bba97-e37b-4c1e-9997-ec3ceed0dc69](https://github.com/user-attachments/assets/2871911e-0787-4030-b80d-c0c26788d952)
+## Ürün Konsept Durumu: 
+![413bba97-e37b-4c1e-9997-ec3ceed0dc69](https://github.com/user-attachments/assets/2871911e-0787-4030-b80d-c0c26788d952)
 
-![Urun_2]![7eb04553-9aa1-4640-8b6c-2704be9ab07a](https://github.com/user-attachments/assets/9b7cd87c-8c8a-4672-a3dc-efa1e762a89f)
+![7eb04553-9aa1-4640-8b6c-2704be9ab07a](https://github.com/user-attachments/assets/9b7cd87c-8c8a-4672-a3dc-efa1e762a89f)
 
-![Urun_3]![a3566fd0-d549-4a17-9a8c-02a498cf0e26](https://github.com/user-attachments/assets/81429319-f5cc-493d-af2e-689c84967b22)
+![a3566fd0-d549-4a17-9a8c-02a498cf0e26](https://github.com/user-attachments/assets/81429319-f5cc-493d-af2e-689c84967b22)
 
-![Urun_4]![db7c8103-69e3-4c92-997a-8fa562fc6a27](https://github.com/user-attachments/assets/3c5b97a8-fd91-46ef-825e-18d72b6a398e)
+![db7c8103-69e3-4c92-997a-8fa562fc6a27](https://github.com/user-attachments/assets/3c5b97a8-fd91-46ef-825e-18d72b6a398e)
 
 
 
@@ -158,8 +158,23 @@ Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmışt
 
 Toplantı ve Whatsapp Screenshotları:
 
-[Whatsapp Link ] (https://drive.google.com/file/d/18TAzchyVmZpIPSSVtxXHjTnAShS2_7nV/view?usp=sharing)
+[Whatsapp Link](https://drive.google.com/file/d/1aE1o3knXz9eCpAbCHbh26M9offdCNVQ-/view)
 
+ - **Sprint board update**: Sprint board screenshotları:
+![WhatsApp Görsel 2024-08-02 saat 23 56 55_06586aff](https://github.com/user-attachments/assets/93156a96-b191-4441-b1a0-f34c96e68195)
+![WhatsApp Görsel 2024-08-02 saat 23 56 56_4f054a9c](https://github.com/user-attachments/assets/8d2e9a99-4e2c-46c9-bc6e-1a211ea6ce24)
+![WhatsApp Görsel 2024-08-02 saat 23 56 55_39173dab](https://github.com/user-attachments/assets/da68b886-29eb-4160-beaa-f2230e2c0e89)
+![WhatsApp Görsel 2024-08-02 saat 23 56 55_6e43d714](https://github.com/user-attachments/assets/dbcbe181-2a0a-4ab8-af54-a11b0bd5aa18)
+
+
+
+## Ürün Durumu: 
+![Screenshot_25](https://github.com/user-attachments/assets/9fa118e6-dc57-4f55-91cb-bca9d497019e)
+![Screenshot_27](https://github.com/user-attachments/assets/761bcc93-e45f-4da3-89f8-70d97c852b9c)
+![Screenshot_28](https://github.com/user-attachments/assets/41fe2fa8-1df1-42d0-ace3-d7fa7a41122b)
+![Screenshot_29](https://github.com/user-attachments/assets/04f34a0c-45de-4a1e-ba39-ea4eb2673e1d)
+
+[Youtube Gameplay Link](https://www.youtube.com/watch?v=GwvmyzGQ_SI)
 
 ## Sprint Review :
 -	Araştırma ve Analiz
@@ -185,24 +200,23 @@ Ekip olarak Sprint 3'te stratejik bir yaklaşım benimsenmiş, çalışmaların 
 ## Sprint Retrospective:
 
 Ne İyi Gitti?
-Sprint sürecinde birçok alanda önemli ilerlemeler kaydedildi ve başarılı sonuçlar elde edildi. Aşağıda, geçmiş sprintlerin notlarına dayanarak, süreç boyunca neyin iyi gittiğini özetledik.
+- Sprint sürecinde birçok alanda önemli ilerlemeler kaydedildi ve başarılı sonuçlar elde edildi. Aşağıda, geçmiş sprintlerin notlarına dayanarak, süreç boyunca neyin iyi gittiğini özetledik.
   
--Tasarım ve Teknik Çalışmalar
-•	Görev Tamamlamaları: Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı. Bu, ekibin görev yönetimi ve zaman planlaması konusundaki başarısını ortaya koydu.
-•	Level Design: Oyun seviyelerinin tasarımı başarıyla gerçekleştirildi. Geçmiş ve gelecek akışı dengeli bir şekilde optimize edildi.
+Tasarım ve Teknik Çalışmalar
+-	Görev Tamamlamaları: Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı. Bu, ekibin görev yönetimi ve zaman planlaması konusundaki başarısını ortaya koydu.
+-	Level Design: Oyun seviyelerinin tasarımı başarıyla gerçekleştirildi. Geçmiş ve gelecek akışı dengeli bir şekilde optimize edildi.
 
--3D Asset Üretimi ve Çevre Tasarımı
-•	Stratejik Karar: 3D modelleme ve tasarım çalışmalarının kapsamı ve karmaşıklığı nedeniyle Sprint 3'e aktarılması stratejik olarak doğru bir karar oldu. Bu, ekibin odaklanmasını ve sprint hedeflerine ulaşmasını sağladı.
-•	3D Modelleme: Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde önemli ilerlemeler kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı ve bu hedef başarıyla gerçekleştirildi.
-•	Çevre Tasarımı: Geçmiş ve geleceğin interaktif bir şekilde çalışacağı bir çevre tasarlandı. Bu, oyunun genel estetiğine ve oynanabilirliğine büyük katkı sağladı.
+3D Asset Üretimi ve Çevre Tasarımı
+-	Stratejik Karar: 3D modelleme ve tasarım çalışmalarının kapsamı ve karmaşıklığı nedeniyle Sprint 3'e aktarılması stratejik olarak doğru bir karar oldu. Bu, ekibin odaklanmasını ve sprint hedeflerine ulaşmasını sağladı.
+-	3D Modelleme: Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde önemli ilerlemeler kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı ve bu hedef başarıyla gerçekleştirildi.
+-	Çevre Tasarımı: Geçmiş ve geleceğin interaktif bir şekilde çalışacağı bir çevre tasarlandı. Bu, oyunun genel estetiğine ve oynanabilirliğine büyük katkı sağladı.
 
--Temel Mekaniklerin Geliştirilmesi
-•	Mekanik Geliştirme: Temel mekaniklerin geliştirilmesi konusunda önemli ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi planlandı ve bu hedef başarıyla tamamlandı.
+Temel Mekaniklerin Geliştirilmesi
+-	Mekanik Geliştirme: Temel mekaniklerin geliştirilmesi konusunda önemli ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi planlandı ve bu hedef başarıyla tamamlandı.
 
--İleriye Dönük Planlar ve Prototip Oluşturma
-•	Görev ve Sorumluluklar: Belirlenen görev ve sorumluluklar doğrultusunda ilerleme sağlandı. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edildi ve bu takip süreci, ekibin disiplinli ve organize çalışmasını sağladı.
+İleriye Dönük Planlar ve Prototip Oluşturma
+-	Görev ve Sorumluluklar: Belirlenen görev ve sorumluluklar doğrultusunda ilerleme sağlandı. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edildi ve bu takip süreci, ekibin disiplinli ve organize çalışmasını sağladı.
 
 Bu süreç boyunca, ekibin iş birliği ve özverili çalışması sayesinde önemli başarılar elde edildi. Tüm bu olumlu gelişmeler, projenin genel ilerleyişine büyük katkı sağladı ve oyunun kaliteli bir şekilde geliştirilmesini mümkün kıldı.
 
 
-  
