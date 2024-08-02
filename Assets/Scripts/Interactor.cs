@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
+using UnityEngine.UIElements;
 
 interface IInteractable
 {
@@ -28,6 +29,9 @@ public class Interactor : MonoBehaviour
     [SerializeField] Transform playerOrientation;
     [SerializeField] Transform ghostObjectsPool;
 
+    private Coroutine objMoveCoroutine;
+    [SerializeField] Transform debug;
+
     void Update()
     {
         if (GameManager.Instance.CurrentState != GameState.Playing)
@@ -41,21 +45,30 @@ public class Interactor : MonoBehaviour
             if (GameManager.Instance.CurrentState == GameState.Holding)
             {
                 
-                Ray ray = new Ray(InteractorSource.position, InteractorSource.forward);
+                Ray ray = new(InteractorSource.position, InteractorSource.forward);
                 if (Physics.Raycast(ray, out RaycastHit hit, placeRange, placeMask))
                 {
+                    Vector3 proposedPosition = hit.point + new Vector3(0, 0.20f, 0);
+
                     if (Input.GetMouseButtonDown(0))
                     {
                         isHoldingObject = false;
+
+                        if (objMoveCoroutine != null)
+                        {
+                            StopCoroutine(objMoveCoroutine);
+                            objMoveCoroutine = null;
+                        }
+
                         GameManager.Instance.ChangeState(GameState.Playing);
+                        ghostObject.transform.SetParent(ghostObjectsPool);
+                        holdObject.transform.SetParent(null);
                         holdObject.GetComponent<Pickup>().EnablePhysics();
                         holdObject.GetComponent<Rigidbody>().isKinematic = false;
-                        holdObject.transform.position = ghostObject.transform.position;
+                        holdObject.transform.position = proposedPosition;
 
-                        ghostObject.gameObject.SetActive(false);
+                        ghostObject.SetActive(false);
                         GameManager.Instance.SetInGameCursor("normal");
-                        ghostObject.transform.SetParent(ghostObjectsPool);
-                        holdObject.transform.parent = null;
                         holdObject = null;
                         ghostObject = null;
                         return;
@@ -64,21 +77,7 @@ public class Interactor : MonoBehaviour
                     if (!ghostObject.activeSelf) ghostObject.SetActive(true);
                     ghostObject.transform.SetParent(playerOrientation);
                     ghostObject.transform.localRotation = Quaternion.identity;
-
-
-                    Vector3 proposedPosition = hit.point;
-                    Collider[] colliders = Physics.OverlapSphere(proposedPosition, ghostObject.GetComponent<Collider>().bounds.size.y, placeMask);
-
-                    if (colliders.Length == 0)
-                    {
-                        ghostObject.transform.position = proposedPosition;
-                    }
-                    else
-                    {
-
-                        Vector3 adjustedPosition = proposedPosition + new Vector3(0, ghostObject.GetComponent<Collider>().bounds.size.y, 0);
-                        ghostObject.transform.position = adjustedPosition;
-                    }
+                    ghostObject.transform.position = proposedPosition;
 
                 }
                 else
@@ -90,7 +89,7 @@ public class Interactor : MonoBehaviour
             return;
         }
 
-        Ray r = new Ray(InteractorSource.position, InteractorSource.forward);
+        Ray r = new(InteractorSource.position, InteractorSource.forward);
         Debug.DrawRay(r.origin, r.direction * InteractRange, Color.red);
         if (Physics.Raycast(r, out RaycastHit hitInfo, InteractRange, mask))
         {
@@ -103,6 +102,7 @@ public class Interactor : MonoBehaviour
 
                     if (!isHoldingObject)
                     {
+                    Debug.Log("click + Pick");
                         isHoldingObject = true;
                         holdObject = hitInfo.collider.gameObject;
                         GameManager.Instance.ChangeState(GameState.Holding);
@@ -111,11 +111,11 @@ public class Interactor : MonoBehaviour
                         ghostObject = hitInfo.collider.gameObject.GetComponent<Pickup>().ghostObject.gameObject;
                         hitInfo.collider.gameObject.GetComponent<Rigidbody>().isKinematic = true;
 
-                        StartCoroutine(MoveTransformToTarget(hitInfo.collider.gameObject.transform, holdPosition, 1));
-                        hitInfo.collider.gameObject.transform.DORotateQuaternion(holdPosition.rotation,1);
+                        objMoveCoroutine = StartCoroutine(MoveTransformToTarget(hitInfo.collider.gameObject.transform, holdPosition, 1));
+                        //hitInfo.collider.gameObject.transform.DORotateQuaternion(holdPosition.rotation,1);
                         
                         ApplyOutline(GameManager.Instance.currentHighlightObject, false);
-                        ghostObject.gameObject.SetActive(true);
+                        ghostObject.SetActive(true);
                         GameManager.Instance.SetInGameCursor("none");
                     }
                     return;
@@ -186,6 +186,7 @@ public class Interactor : MonoBehaviour
 
     IEnumerator MoveTransformToTarget(Transform move, Transform target, float duration = 1.0f)
     {
+        move.SetParent(target);
         float elapsedTime = 0.0f;
 
         while (elapsedTime < duration)
@@ -193,13 +194,12 @@ public class Interactor : MonoBehaviour
             elapsedTime += Time.deltaTime;
             float t = Mathf.Clamp01(elapsedTime / duration);
 
-            move.position = Vector3.Lerp(move.position, target.position, t);
+            move.SetPositionAndRotation(Vector3.Lerp(move.position, target.position, t), Quaternion.Slerp(move.rotation, target.rotation, t));
 
             yield return null;
         }
 
-        move.position = target.position;
-
-        move.SetParent(target);
+        move.SetPositionAndRotation(target.position, target.rotation);
     }
+
 }

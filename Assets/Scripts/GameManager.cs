@@ -7,6 +7,9 @@ using DG.Tweening;
 using TMPro;
 using UnityEngine.Events;
 using System;
+using Cinemachine;
+using static UnityEditor.Progress;
+using static Unity.Burst.Intrinsics.X86.Avx;
 
 public enum GameState
 {
@@ -39,6 +42,7 @@ public class GameManager : MonoBehaviour
     [HideInInspector] public GameObject currentHighlightObject;
     //[SerializeField] float displayInteractDistance = 1;
     [SerializeField] float displaySpeed = 0.8f;
+    [SerializeField] CinemachineVirtualCamera cmv;
 
     public Camera mainCamera;
     [SerializeField] GameObject globalVolume;
@@ -60,6 +64,7 @@ public class GameManager : MonoBehaviour
     public Material ghostMaterial;
 
     public bool isInspectBusy;
+    private Tween fovTween;
 
     private void Start()
     {
@@ -94,13 +99,6 @@ public class GameManager : MonoBehaviour
     {
         SetInGameCursor("none");
         ChangeState(GameState.Inspecting);
-        //Obj.GetComponent<Rigidbody>().useGravity = false;
-        //Obj.GetComponent<Rigidbody>().velocity = Vector3.zero;
-        //Obj.GetComponent<Rigidbody>().angularVelocity = Vector3.zero;
-
-        //Obj.GetComponent<Collider>().enabled = false;
-        //Obj.GetComponent<Pickup>().lastPosition = Obj.transform.position;
-        //Obj.GetComponent<Pickup>().lastRotation = Obj.transform.eulerAngles;
 
         Obj.GetComponent<Pickup>().DisablePhysics();
         globalVolume.SetActive(true);
@@ -193,4 +191,30 @@ public class GameManager : MonoBehaviour
             crosshairImage.sprite = cursor.cursorSprite;
         }
     }
+
+    public void FOVSetter(float target = 140, float duration = 1f)
+    {
+        if (fovTween != null)
+        {
+            fovTween.Kill();
+        }
+
+        float initialFOV = cmv.m_Lens.FieldOfView;
+
+        fovTween = DOTween.To(
+            () => cmv.m_Lens.FieldOfView,
+            x => cmv.m_Lens.FieldOfView = x, 
+            target, 
+            duration 
+        )
+        .SetEase(Ease.OutCubic)
+        .SetUpdate(true).OnComplete(() =>
+        {
+            FOVSetter(60);
+        });
+
+
+    }
+
+
 }

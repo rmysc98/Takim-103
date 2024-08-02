@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [RequireComponent(typeof(InspectSettings))]
@@ -35,6 +36,9 @@ public class Pickup : MonoBehaviour, IInteractable
             Transform obj = Instantiate(transform, transform.position, Quaternion.identity);
             Destroy(obj.GetComponent<Pickup>());
             Destroy(obj.GetComponent<Rigidbody>());
+            //Destroy(obj.GetComponent<MeshRenderer>());
+            obj.GetComponent<Collider>().isTrigger = true;
+            //obj.AddComponent<MeshRenderer>();
             obj.GetComponent<MeshRenderer>().material = GameManager.Instance.ghostMaterial;
             obj.gameObject.SetActive(false);
             obj.gameObject.layer = LayerMask.NameToLayer("Ignore Raycast");
