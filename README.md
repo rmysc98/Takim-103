@@ -150,8 +150,8 @@ Aksiyon Öğeleri
 
 # SPRINT 3
 ## Puan Tamamlama Mantığı:
-Tahmin Edilen Tamamlanacak Puan: 45 Puan
-Tahmin Mantığı: İlk sprintte belirlenen 40 puanın tamamlanması beklenirken, tamamlanamayan işler ekibin gerçek hızını göstermektedir. 2. sprint için backlog gözden geçirilmiş ve önceliklendirilmiştir. İlk sprintte tamamlanamayan 5 puanlık işlerin yanı sıra, 2. sprintte tamamlanması gereken yeni işler de eklenmiştir. Ancak, ekibin artan tecrübesi göz önünde bulundurularak hedef puan 45 olarak belirlenmiştir.
+Tahmin Edilen Tamamlanacak Puan: 40 Puan
+Tahmin Mantığı: Son sprintte de önceki sprintlerde olduğu gibi 40 puanlık bir hedef belirlenmiştir. Bu sprintte, projenin tamamlanması ve nihai teslimata hazır hale getirilmesi amaçlanmaktadır. Önceki sprintlerde ortaya çıkan eksiklikler ve hatalar giderilecek, son iyileştirmeler yapılacaktır. Ayrıca, tüm kullanıcı gereksinimlerinin karşılandığından emin olunacaktır.
 
 ## Daily Scrum :
 Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmıştır.
@@ -187,19 +187,19 @@ Ekip olarak Sprint 3'te stratejik bir yaklaşım benimsenmiş, çalışmaların 
 Ne İyi Gitti?
 Sprint sürecinde birçok alanda önemli ilerlemeler kaydedildi ve başarılı sonuçlar elde edildi. Aşağıda, geçmiş sprintlerin notlarına dayanarak, süreç boyunca neyin iyi gittiğini özetledik.
   
-Tasarım ve Teknik Çalışmalar
+-Tasarım ve Teknik Çalışmalar
 •	Görev Tamamlamaları: Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı. Bu, ekibin görev yönetimi ve zaman planlaması konusundaki başarısını ortaya koydu.
 •	Level Design: Oyun seviyelerinin tasarımı başarıyla gerçekleştirildi. Geçmiş ve gelecek akışı dengeli bir şekilde optimize edildi.
 
-3D Asset Üretimi ve Çevre Tasarımı
+-3D Asset Üretimi ve Çevre Tasarımı
 •	Stratejik Karar: 3D modelleme ve tasarım çalışmalarının kapsamı ve karmaşıklığı nedeniyle Sprint 3'e aktarılması stratejik olarak doğru bir karar oldu. Bu, ekibin odaklanmasını ve sprint hedeflerine ulaşmasını sağladı.
 •	3D Modelleme: Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde önemli ilerlemeler kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı ve bu hedef başarıyla gerçekleştirildi.
 •	Çevre Tasarımı: Geçmiş ve geleceğin interaktif bir şekilde çalışacağı bir çevre tasarlandı. Bu, oyunun genel estetiğine ve oynanabilirliğine büyük katkı sağladı.
 
-Temel Mekaniklerin Geliştirilmesi
+-Temel Mekaniklerin Geliştirilmesi
 •	Mekanik Geliştirme: Temel mekaniklerin geliştirilmesi konusunda önemli ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi planlandı ve bu hedef başarıyla tamamlandı.
 
-İleriye Dönük Planlar ve Prototip Oluşturma
+-İleriye Dönük Planlar ve Prototip Oluşturma
 •	Görev ve Sorumluluklar: Belirlenen görev ve sorumluluklar doğrultusunda ilerleme sağlandı. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edildi ve bu takip süreci, ekibin disiplinli ve organize çalışmasını sağladı.
 
 Bu süreç boyunca, ekibin iş birliği ve özverili çalışması sayesinde önemli başarılar elde edildi. Tüm bu olumlu gelişmeler, projenin genel ilerleyişine büyük katkı sağladı ve oyunun kaliteli bir şekilde geliştirilmesini mümkün kıldı.
