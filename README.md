@@ -11,6 +11,7 @@ U103
 Zaman Muhafızı
 
 ## Product Backlog URL:
+[Miro Backlog Board]([https://miro.com/app/board/uXjVOSSCpsI=](https://miro.com/welcomeonboard/aHFRSHhQMmtxUG9lOGZrRkpGWlBWbDlPcjlRSG9oZG52RmV6cTBrQWZzc2RlTUgyQWJDWTMyZDg4d0ZuTEV3dnwzNDU4NzY0NTk0MTQxNTEwNTcxfDI=?share_link_id=809254113816)/)
 [Trello](https://trello.com/b/KonyeQ8c/my-trello-board) linkinde moodboard ve product backlog mevcuttur.
 - Product backlog 3 sprintten oluşmaktadır. 
 - Product backlog oluşturulurken INVEST metoduna göre oluşturulmuştur. 
@@ -160,11 +161,12 @@ Toplantı ve Whatsapp Screenshotları:
 
 [Whatsapp Link](https://drive.google.com/file/d/1aE1o3knXz9eCpAbCHbh26M9offdCNVQ-/view)
 
- - **Sprint board update**: Sprint board screenshotları:
-![WhatsApp Görsel 2024-08-02 saat 23 56 55_06586aff](https://github.com/user-attachments/assets/93156a96-b191-4441-b1a0-f34c96e68195)
-![WhatsApp Görsel 2024-08-02 saat 23 56 56_4f054a9c](https://github.com/user-attachments/assets/8d2e9a99-4e2c-46c9-bc6e-1a211ea6ce24)
-![WhatsApp Görsel 2024-08-02 saat 23 56 55_39173dab](https://github.com/user-attachments/assets/da68b886-29eb-4160-beaa-f2230e2c0e89)
-![WhatsApp Görsel 2024-08-02 saat 23 56 55_6e43d714](https://github.com/user-attachments/assets/dbcbe181-2a0a-4ab8-af54-a11b0bd5aa18)
+ - **Sprint board update**: Product Backlog screenshotları:
+![Product Backlog 1](https://github.com/user-attachments/assets/85fbffb6-39c4-4397-974d-37d1d279f031)
+![Product Backlog2](https://github.com/user-attachments/assets/d452c631-4ff8-434b-b86a-9cf7c9331427)
+![Product Backlog3](https://github.com/user-attachments/assets/94aa19b7-0109-4b3b-a2ae-20d800c0aaca)
+![Product Backlog4](https://github.com/user-attachments/assets/cb96c95c-3470-43fb-b1ee-ed8e31a94f6d)
+
 
 
 
