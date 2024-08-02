@@ -148,5 +148,61 @@ Aksiyon Öğeleri
 - İlk çalışma prototiplerinin oluşturulması ve test edilmesi için gerekli hazırlıklar yapılacak. Test sonuçlarına göre iyileştirmeler planlanacak.
 - 3D çalışmalar Sprint 3'e aktarıldı.
 
+# SPRINT 3
+## Puan Tamamlama Mantığı:
+Tahmin Edilen Tamamlanacak Puan: 45 Puan
+Tahmin Mantığı: İlk sprintte belirlenen 40 puanın tamamlanması beklenirken, tamamlanamayan işler ekibin gerçek hızını göstermektedir. 2. sprint için backlog gözden geçirilmiş ve önceliklendirilmiştir. İlk sprintte tamamlanamayan 5 puanlık işlerin yanı sıra, 2. sprintte tamamlanması gereken yeni işler de eklenmiştir. Ancak, ekibin artan tecrübesi göz önünde bulundurularak hedef puan 45 olarak belirlenmiştir.
+
+## Daily Scrum :
+Konuşmalar Whatsapp üzerinden toplantılar Google Meet üzerinden yapılmıştır.
+
+Toplantı ve Whatsapp Screenshotları:
+
+[Whatsapp Link ] (https://drive.google.com/file/d/18TAzchyVmZpIPSSVtxXHjTnAShS2_7nV/view?usp=sharing)
 
 
+## Sprint Review :
+-	Araştırma ve Analiz
+Bu sprintte, benzer oyunlar ve projeler detaylı bir şekilde incelenmiş, başarılı örnekler üzerinden notlar çıkarılmıştır. Yapılan bu analizler, ekibin oyun tasarımında yenilikçi ve etkili çözümler geliştirmesine önemli katkılar sağlamıştır. Özellikle oyun mekanikleri ve kullanıcı etkileşimleri konularında elde edilen bulgular, projemizin kalitesini artırmak için kullanılmıştır.
+
+- Bulmaca Seçimi ve Entegrasyonu
+Sprint 3'te, oyun içinde kullanılacak bulmacalar belirlenmiş ve oyunla entegre edilmiştir. Toplantılar sonucunda seçilen bulmacalar, oyun dinamiklerine uygun şekilde tasarlanarak oyunun akışına entegre edilmiştir. 
+
+- 3D Modelleme ve Çevre Tasarımı
+Sprint 3'te, kapsamı ve karmaşıklığı nedeniyle önceki sprintlerde ertelenen 3D modelleme ve tasarım çalışmaları başarıyla tamamlanmıştır. Çevre tasarımları ve çeşitli oyun içi objeler, oyunun hikayesine ve zamanına (genel olarak tüm bağlama) uygun olarak modellenmiş ve oyun motoruna entegre edilmiştir. Bu çalışmalar, oyunun görsel kalitesini ve genel estetiğini önemli ölçüde iyileştirmiştir.
+Hem geçmiş hem de gelecek seviyeleri birbiri ile interaktif şekilde çalışacak şekilde hem level hem de çevre tasarımları üzerinde durulmuştur.
+
+-Stratejik Planlama ve Uygulama
+Ekip olarak Sprint 3'te stratejik bir yaklaşım benimsenmiş, çalışmaların odaklanmış ve hedefe yönelik bir şekilde yürütülmesi sağlanmıştır. Bu sayede, belirlenen hedeflere ulaşılmış ve proje planına uygun şekilde ilerleme kaydedilmiştir. Stratejik planlama sürecinde, ekip üyelerinin geri bildirimleri ve proje gereksinimleri dikkate alınarak, en verimli çalışma yöntemi belirlenmiştir.
+
+## Sprint Review Katılımcıları:
+- Merve Aişeoğlu 
+- Mihriban Dingil
+- Rümeysa Çelik 
+- Nazlıcan Matlar
+- Ege Canıbek
+
+## Sprint Retrospective:
+
+Ne İyi Gitti?
+Sprint sürecinde birçok alanda önemli ilerlemeler kaydedildi ve başarılı sonuçlar elde edildi. Aşağıda, geçmiş sprintlerin notlarına dayanarak, süreç boyunca neyin iyi gittiğini özetledik.
+  
+Tasarım ve Teknik Çalışmalar
+•	Görev Tamamlamaları: Tasarım ve teknik çalışmalarda planlanan görevlerin büyük bir kısmı başarıyla tamamlandı. Bu, ekibin görev yönetimi ve zaman planlaması konusundaki başarısını ortaya koydu.
+•	Level Design: Oyun seviyelerinin tasarımı başarıyla gerçekleştirildi. Geçmiş ve gelecek akışı dengeli bir şekilde optimize edildi.
+
+3D Asset Üretimi ve Çevre Tasarımı
+•	Stratejik Karar: 3D modelleme ve tasarım çalışmalarının kapsamı ve karmaşıklığı nedeniyle Sprint 3'e aktarılması stratejik olarak doğru bir karar oldu. Bu, ekibin odaklanmasını ve sprint hedeflerine ulaşmasını sağladı.
+•	3D Modelleme: Çevre tasarımı için gerekli üç boyutlu assetlerin üretiminde önemli ilerlemeler kaydedildi. Üçüncü sprintte bu tasarımların detaylandırılması ve tamamlanması kararlaştırıldı ve bu hedef başarıyla gerçekleştirildi.
+•	Çevre Tasarımı: Geçmiş ve geleceğin interaktif bir şekilde çalışacağı bir çevre tasarlandı. Bu, oyunun genel estetiğine ve oynanabilirliğine büyük katkı sağladı.
+
+Temel Mekaniklerin Geliştirilmesi
+•	Mekanik Geliştirme: Temel mekaniklerin geliştirilmesi konusunda önemli ilerlemeler kaydedildi. Üçüncü sprintte bu mekaniklerin test edilmesi ve optimize edilmesi planlandı ve bu hedef başarıyla tamamlandı.
+
+İleriye Dönük Planlar ve Prototip Oluşturma
+•	Görev ve Sorumluluklar: Belirlenen görev ve sorumluluklar doğrultusunda ilerleme sağlandı. Aksiyon planlarının uygulanıp uygulanmadığı düzenli olarak takip edildi ve bu takip süreci, ekibin disiplinli ve organize çalışmasını sağladı.
+
+Bu süreç boyunca, ekibin iş birliği ve özverili çalışması sayesinde önemli başarılar elde edildi. Tüm bu olumlu gelişmeler, projenin genel ilerleyişine büyük katkı sağladı ve oyunun kaliteli bir şekilde geliştirilmesini mümkün kıldı.
+
+
+  
