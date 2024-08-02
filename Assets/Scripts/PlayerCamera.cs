@@ -22,14 +22,14 @@ public class PlayerCamera : MonoBehaviour
 
     void Update()
     {
-        if (isGameViewActive == false) //BUILDDE SIL
-        {
-            if (Input.GetMouseButtonDown(0))
-            {
-                isGameViewActive = true;
-            }
-            return;
-        }
+        //if (isGameViewActive == false) //BUILDDE SIL
+        //{
+        //    if (Input.GetMouseButtonDown(0))
+        //    {
+        //        isGameViewActive = true;
+        //    }
+        //    return;
+        //}
         if (GameManager.Instance.CurrentState != GameState.Playing && GameManager.Instance.CurrentState != GameState.Holding) return;
 
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime * sensX;
