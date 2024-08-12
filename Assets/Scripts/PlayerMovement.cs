@@ -12,6 +12,8 @@ public class PlayerMovement : MonoBehaviour
     Vector3 moveDirection;
     Rigidbody rb;
 
+    private bool isWalking;
+    private bool wasWalking;
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
@@ -34,6 +36,7 @@ public class PlayerMovement : MonoBehaviour
         }
         
         MovePlayer();
+        CheckWalkingSound();
     }
 
     private void MyInput()
@@ -54,4 +57,42 @@ public class PlayerMovement : MonoBehaviour
         //rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
         //rb.velocity = new Vector3(Mathf.Clamp(rb.velocity.x, rb.velocity.x, moveSpeed), rb.velocity.y, Mathf.Clamp(rb.velocity.z, rb.velocity.z, moveSpeed));
     }
+
+    private void CheckWalkingSound()
+    {
+        // Eðer hareket ediyorsa isWalking true olacak, deðilse false
+        isWalking = rb.velocity.magnitude > 0.1f;
+
+        if (isWalking && !wasWalking)
+        {
+            // Yürümeye baþladýysa sesi baþlat
+            AudioManagerr.Instance.Playsfx("Walk");
+        }
+        else if (!isWalking && wasWalking)
+        {
+            // Durduysa sesi durdur
+            AudioManagerr.Instance.StopSfx("Walk");
+        }
+
+        // Önceki durum güncellenir
+        wasWalking = isWalking;
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

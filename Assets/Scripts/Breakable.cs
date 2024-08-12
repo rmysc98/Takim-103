@@ -8,8 +8,13 @@ public class Breakable : MonoBehaviour
     public float breakForceThreshold = 5.0f;
     [SerializeField] GameObject gfx;
     [SerializeField] GameObject brokenGfx;
+<<<<<<< Updated upstream
     [SerializeField] GameObject newObject;
     bool isBroken;
+=======
+    [SerializeField] AudioSource audioSource; // Ses kaynaðý
+    [SerializeField] AudioClip breakSound; // Kýrýlma sesi
+>>>>>>> Stashed changes
 
     void OnCollisionEnter(Collision collision)
     {
@@ -23,7 +28,17 @@ public class Breakable : MonoBehaviour
             Debug.Log("Nesne kýrýldý! Çarpýþma þiddeti: " + collisionForce);
             brokenGfx.SetActive(true);
             gfx.SetActive(false);
+<<<<<<< Updated upstream
             AudioManager.Instance.PlaySFX("vase");
+=======
+
+            // Kýrýlma sesini çal
+            if (audioSource != null && breakSound != null)
+            {
+                audioSource.PlayOneShot(breakSound);
+            }
+            //GetComponent<BoxCollider>().enabled = false;
+>>>>>>> Stashed changes
             Destroy(GetComponent<BoxCollider>(),0.3f);
             
             if (newObject != null)
@@ -33,3 +48,7 @@ public class Breakable : MonoBehaviour
         }
     }
 }
+
+
+
+

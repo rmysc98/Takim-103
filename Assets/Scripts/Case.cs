@@ -9,6 +9,9 @@ public class Case : MonoBehaviour
     [SerializeField] Transform closedPosTransform;
     [SerializeField] Transform openedPosTransform;
     [SerializeField] InspectSettings inspectSettingsScript;
+    [SerializeField] AudioSource audioSource; // Ses kaynaðý
+    [SerializeField] AudioClip openSound; // Açýlma sesi
+    [SerializeField] AudioClip closeSound; // Kapanma sesi
     bool isOpen;
 
     bool isLeftOpen;
@@ -81,6 +84,12 @@ public class Case : MonoBehaviour
             GameManager.Instance.isInspectBusy = false;
         });
         //transform.DOMove(transform.localPosition - new Vector3(0, 0.5f, -0.5f),1);
+
+        // Açýlma sesini çal
+        if (audioSource != null && openSound != null)
+        {
+            audioSource.PlayOneShot(openSound);
+        }
     }
 
     public void CloseCase()
@@ -95,7 +104,14 @@ public class Case : MonoBehaviour
         {
             GameManager.Instance.isInspectBusy = false;
         });
+        
         //transform.DOMove(GameManager.Instance.mainCamera.transform.position + GameManager.Instance.mainCamera.transform.forward * inspectSettingsScript.distance, 1);
+        
+        // Kapanma sesini çal
+        if (audioSource != null && closeSound != null)
+        {
+            audioSource.PlayOneShot(closeSound);
+        }
     }
 
     public void CloseCaseImmediate()
